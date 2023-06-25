@@ -13,7 +13,7 @@
     --third-color: #385170;
   }
 
-/*style navbar*/
+/*navbar*/
 
 .navbar {
     position: fixed;
@@ -131,4 +131,69 @@ header {
     .beranda .header-box p{
         font-size: 12px;
     }
+}
+
+/*kegiatan*/
+
+.beranda .kegiatan-home {
+    background-color: var(--third-color);
+    padding-bottom: 100px;
+}
+
+.beranda .kegiatan-home .row:nth-child(1) {
+    padding-top: 150px;
+    padding-bottom: 100px;
+}
+
+.beranda .kegiatan-home .row:nth-child(1) h1 {
+    color: var(--second-color);
+}
+
+.beranda .kegiatan-home .row:nth-child(1) p {
+    color: var(--primary-color);
+}
+
+.beranda .kegiatan-home .row:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding-inline: 10px;
+}
+
+.beranda .kegiatan-home .row:nth-child(2) img {
+    height: 250px;
+}
+
+.beranda .kegiatan-home .row:nth-child(2) .col {
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+.beranda .kegiatan-home .row:nth-child(2) .star i {
+    color: var(--secondary-color);
+}
+
+.beranda .kegiatan-home .row:nth-child(2) h5 {
+    color: var(--color-text);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.beranda .kegiatan-home .row:nth-child(2) button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.beranda .kegiatan-home .row:nth-child(3) {
+    padding-top: 100px;
+}
+
+.beranda .kegiatan-home .row:nth-child(3) button {
+    background-color: var(--first-color);
+    color: var(--text-color);
+}
+
+.beranda .kegiatan-home .row:nth-child(3) button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
 }
