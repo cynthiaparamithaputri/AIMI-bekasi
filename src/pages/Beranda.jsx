@@ -18,7 +18,7 @@ const Beranda = () => {
           </Row>
         </Container>
       </header>
-      <div className="kegiatan 1w-100 min-vh-100">
+      <div className="1w-100 min-vh-100">
         <Container>
           <Row>
             <Col>
