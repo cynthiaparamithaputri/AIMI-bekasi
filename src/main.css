@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+:root {
+    --primary-color: #f6f8fd;
+    --secondary-color: #132743;
+    --color-text: #231942;
+    --first-color: #ffb5b5;
+    --second-color: #ffcbcb;
+    --third-color: #385170;
+  }
+
+/*style navbar*/
+
+.navbar {
+    position: fixed;
+    padding: 1rem 2rem;
+    width: 100%;
+    background-color: var(--third-color);
+}
+
+
+
+.navbar .nav-link {
+    font-weight: 500;
+    margin: 0 1.5rem;
+}
+
+.navbar a {
+    color: var(--primary-color);
+}
+
+.navbar .nav-link:hover {
+    color: var(--second-color);
+}
+
+.dropdown-menu .dropdown-item {
+    color: var(--color-text);
+}
+
+.navbar form {
+    margin: 0 1rem;
+}
+
+.navbar .btn {
+    padding: 0 1.5rem;
+    color: var(--color-text);
+    background-color: var(--first-color);
+    border: 1px solid var(--first-color);
+}
+
+.navbar .btn:hover {
+    color: var(--primary-color);
+    background-color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+}
+
+.navbar-toggler {
+    color: var(--primary-color);
+    border: var(--bs-border-width) solid var(--primary-color);
+}
+
+/*beranda*/
+
+header {
+    background: #fdffcd; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #9fd3c7, #ffcbcb, #fdffcd); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #9fd3c7, #ffcbcb, #fdffcd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.beranda .header-box h1 {
+    font-size: 3.2rem;
+    font-weight: 600;
+    color: var(--color-text);
+}
+
+.beranda .header-box span {
+    font-weight: 800;
+}
+
+.beranda .header-box p {
+    line-height: 2;
+    color: var(--color-text);
+    font-weight: 500;
+}
+
+.beranda .header-box img {
+    width: 120%;
+}
+
+@media screen and (max-width: 992px) {
+    .beranda .header-box {
+        padding-top: 8rem;
+    }
+
+    .beranda .header-box img {
+        width: 400px;
+        display: block;
+        margin-inline: auto;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .beranda .header-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .beranda .header-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .beranda .header-box p{
+        font-size: 14px;
+    }
+
+    .beranda .header-box img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .beranda .header-box h1 {
+        font-size: 2rem;
+    }
+
+    .beranda .header-box p{
+        font-size: 12px;
+    }
+}
