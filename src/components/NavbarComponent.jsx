@@ -4,7 +4,7 @@ import HeaderImage from "../assets/img/header-sm.gif"
 const NavbarComponent = () => {
 
   return (
-    <div><Navbar expand="lg">
+    <div><Navbar expand="lg" className="fixed-top px-lg-5 py-2">
     <Container fluid>
       <Navbar.Brand href="/" className="fs-3 fw-bold">AIMI<img src={HeaderImage} height="50" className="d-inline-block align-top" alt=""></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
@@ -18,7 +18,6 @@ const NavbarComponent = () => {
           <Nav.Link href="/tentang">Tentang</Nav.Link>
           <NavDropdown title="Layanan" id="navbarScrollingDropdown">
             <NavDropdown.Item href="/kegiatan">Kegiatan</NavDropdown.Item>
-            <NavDropdown.Item href="/berita">Berita</NavDropdown.Item>
             <NavDropdown.Item href="/daftarkonsel">Daftar Konseling</NavDropdown.Item>
             <NavDropdown.Divider />
             <NavDropdown.Item href="/hasilkonsel">
