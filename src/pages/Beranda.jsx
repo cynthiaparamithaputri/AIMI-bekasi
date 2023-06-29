@@ -2,6 +2,7 @@ import {Container, Row, Col} from "react-bootstrap"
 import HeaderImage from "../assets/img/header-sm.gif"
 import {kelasTerbaru} from "../data/index"
 import {useNavigate} from "react-router-dom"
+import FaqComponent from "../components/FaqComponent"
 
 const Beranda = () => {
   let navigate = useNavigate();
@@ -51,10 +52,13 @@ const Beranda = () => {
           </Row>
           <Row>
             <Col className="text-center">
-            <button className="btn rounded-5 btn-lg px-5 fw-bold" onClick={() => navigate("/kegiatan")}>Lihat Semua Kegiatan <i className="fa-solid fa-chevron-right ms-2"></i></button>
+            <button className="btn rounded-5 btn-lg px-4 fw-bold" onClick={() => navigate("/kegiatan")}>Lihat Semua Kegiatan <i className="fa-solid fa-chevron-right ms-2"></i></button>
             </Col>
           </Row>
         </Container>
+      </div>
+      <div className="faq-home">
+      <FaqComponent />
       </div>
     </div>
   )

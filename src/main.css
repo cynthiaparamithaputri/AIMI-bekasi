@@ -12,6 +12,7 @@
     --second-color: #ffcbcb;
     --third-color: #385170;
     --fourth-color: #344c69;
+    --fifth-color: #ffe9df;
   }
 
 /*navbar*/
@@ -58,17 +59,16 @@
     border: 1px solid var(--secondary-color);
 }
 
-.navbar-toggler {
-    color: var(--primary-color);
-    border: var(--bs-border-width) solid var(--primary-color);
+.navbar .container-fluid {
+    padding-bottom: 10px;
 }
 
 /*beranda*/
 
 header {
     background: #fdffcd; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #9fd3c7, #ffcbcb, #fdffcd); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #9fd3c7, #ffcbcb, #fdffcd); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: -webkit-linear-gradient(to left, #96b3ce, #ffcbcb, #ffe9df); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #96b3ce, #ffcbcb, #ffe9df); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .beranda .header-box h1 {
@@ -93,7 +93,8 @@ header {
 
 @media screen and (max-width: 992px) {
     .beranda .header-box {
-        padding-top: 8rem;
+        padding-top: 200px;
+        padding-bottom: 50px;
     }
 
     .beranda .header-box img {
@@ -133,7 +134,7 @@ header {
     }
 }
 
-/*kegiatan*/
+/*kegiatan home*/
 
 .beranda .kegiatan-home {
     background-color: var(--third-color);
@@ -189,13 +190,153 @@ header {
 }
 
 .beranda .kegiatan-home .row:nth-child(3) button {
-    background-color: var(--first-color);
+    background-color: var(--fifth-color);
     color: var(--text-color);
 }
 
 .beranda .kegiatan-home .row:nth-child(3) button:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+/*faq*/
+
+.faq-home .faq {
+    background-color: var(--third-color);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.faq-home .faq h1 {
+    color: var(--fifth-color);
+}
+
+.faq-home .faq .accordion .accordion-button {
+    color: var(--color-text);
+    font-weight: bold;
+    background-color: var(--primary-color);
+    line-height: 1.5;
+}
+
+.faq-home .faq .accordion .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.faq-home .faq .accordion .accordion-body {
+    background-color: var(--primary-color);
+}
+
+/*kegiatan page*/
+
+.kegiatan-page .kegiatan {
+    background-color: var(--fifth-color);
+    padding-bottom: 100px;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(1) h1 {
+    color: var(--secondary-color);
+}
+
+.kegiatan-page .kegiatan .row:nth-child(1) p {
+    color: var(--text-color);
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 15px;
+    padding-inline: 10px;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) img {
+    height: 250px;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) .col {
+    background-color: var(--primary-color);
+    padding: 0;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) .star i {
+    color: var(--secondary-color);
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) h5 {
+    color: var(--color-text);
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(2) button {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.kegiatan-page .kegiatan .row:nth-child(3) {
+    padding-top: 100px;
+}
+
+.kegiatan-page .kegiatan .row:nth-child(3) button {
+    background-color: var(--first-color);
+    color: var(--text-color);
+}
+
+.kegiatan-page .kegiatan .row:nth-child(3) button:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+/*tentang*/
+
+.tentang-page .tentang {
+    padding-top: 150px;
+    background-color: var(--fifth-color);
+    padding-bottom: 100px;
+}
+
+.tentang-page .tentang .row:nth-child(1) h1 {
+    color: var(--secondary-color);
+}
+
+.tentang-page .tentang p {
+    line-height: 2;
+    color: var(--color-text);
+}
+
+.tentang-page .tentang h4 {
+    color: var(--secondary-color);
+}
+
+.faq-tentang .faq {
+    background-color: var(--fifth-color);
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+
+.faq-tentang .faq h1 {
+    color: var(--secondary-color);
+}
+
+.faq-tentang .faq .accordion .accordion-button {
+    color: var(--color-text);
+    font-weight: bold;
+    background-color: white;
+    line-height: 1.5;
+}
+
+.faq-tentang .faq .accordion .accordion-button:focus {
+    border: none;
+    box-shadow: none;
+}
+
+.faq-tentang .faq .accordion .accordion-body {
+    background-color: white;
 }
 
 /*footer*/
