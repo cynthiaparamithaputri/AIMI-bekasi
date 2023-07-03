@@ -8,7 +8,7 @@ const FooterComponent = () => {
         <Row className="d-flex justify-content-between">
           <Col lg="5">
           <h3 className="fw-bold">AIMI</h3>
-          <p className="desc">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, magnam quam. Eveniet temporibus perspiciatis illo ducimus tempore laborum cumque! Ipsam, consectetur hic fugiat sed perspiciatis a repellat earum dolorem assumenda.</p>
+          <p className="desc">Asosiasi Ibu Menyusui Indonesia (AIMI) adalah organisasi nirlaba berbasis kelompok sesama ibu menyusui dengan tujuan menyebarluaskan pengetahuan dan informasi tentang menyusui serta meningkatkan angka ibu menyusui di Indonesia</p>
           <div className="no mb-1 mt-4">
             <Link className="text-decoration-none">
               <i className="fa-brands fa-whatsapp"></i>

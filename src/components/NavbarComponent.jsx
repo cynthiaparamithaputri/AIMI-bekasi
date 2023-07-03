@@ -6,7 +6,7 @@ const NavbarComponent = () => {
   return (
     <div><Navbar expand="lg" className="fixed-top px-lg-5 py-2">
     <Container fluid>
-      <Navbar.Brand href="/" className="fs-3 fw-bold">AIMI<img src={HeaderImage} height="50" className="d-inline-block align-top" alt=""></img></Navbar.Brand>
+      <Navbar.Brand href="/" className="fs-3 fw-bold">AIMI Bekasi<img src={HeaderImage} height="50" className="d-inline-block align-top" alt=""></img></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />
       <Navbar.Collapse id="navbarScroll">
         <Nav

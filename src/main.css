@@ -19,7 +19,7 @@
 
 .navbar {
     width: 100%;
-    background-color: var(--third-color);
+    background-color: var(--fourth-color);
     border-bottom: 2px solid white;
 }
 
@@ -32,14 +32,21 @@
 
 .navbar a {
     color: var(--primary-color);
+    border-radius: 5px;
 }
 
 .navbar .nav-link:hover {
-    color: var(--second-color);
+    color: var(--text-color);
+    background-color: var(--primary-color);
 }
 
 .dropdown-menu .dropdown-item {
     color: var(--color-text);
+}
+
+.navbar-nav .nav-link.show {
+    background-color: var(--primary-color);
+    color: unset;
 }
 
 .navbar form {
@@ -73,18 +80,15 @@ header {
 
 .beranda .header-box h1 {
     font-size: 3.2rem;
-    font-weight: 600;
+    font-weight: 300;
     color: var(--color-text);
-}
-
-.beranda .header-box span {
-    font-weight: 800;
 }
 
 .beranda .header-box p {
     line-height: 2;
     color: var(--color-text);
     font-weight: 500;
+    text-align: justify;
 }
 
 .beranda .header-box img {
@@ -121,6 +125,10 @@ header {
 
     .beranda .header-box img {
         width: 300px;
+    }
+
+    .beranda .header-box button {
+        font-size: small;
     }
 }
 
@@ -162,7 +170,7 @@ header {
 }
 
 .beranda .kegiatan-home .row:nth-child(2) img {
-    height: 250px;
+    height: 360px;
 }
 
 .beranda .kegiatan-home .row:nth-child(2) .col {
@@ -255,7 +263,7 @@ header {
 }
 
 .kegiatan-page .kegiatan .row:nth-child(2) img {
-    height: 250px;
+    height: 360px;
 }
 
 .kegiatan-page .kegiatan .row:nth-child(2) .col {

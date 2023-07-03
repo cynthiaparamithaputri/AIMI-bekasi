@@ -1,6 +1,6 @@
-import KelasImage1 from "../assets/img/kelas/kelas-1.jpg";
-import KelasImage2 from "../assets/img/kelas/kelas-2.jpg";
-import KelasImage3 from "../assets/img/kelas/kelas-3.jpg";
+import KelasImage1 from "../assets/img/kelas/kegiatan-1.webp";
+import KelasImage2 from "../assets/img/kelas/kegiatan-2.webp";
+import KelasImage3 from "../assets/img/kelas/kegiatan-3.webp";
 import KelasImage4 from "../assets/img/kelas/kelas-4.jpg";
 import KelasImage5 from "../assets/img/kelas/kelas-5.jpg";
 import KelasImage6 from "../assets/img/kelas/kelas-6.jpg";
@@ -169,9 +169,9 @@ export const kelasTerbaru = [
     star3: "fa-solid fa-star",
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star-half-stroke",
-    title: "Character Illustration with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
+    title: "IG Live Sharing Session",
+    price: "Minggu, 14 Mei 2023",
+    buy: "Detail",
     delay: "",
   },
   {
@@ -182,9 +182,9 @@ export const kelasTerbaru = [
     star3: "fa-solid fa-star",
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star",
-    title: "UI UX Website Design for Beginner with Figma",
-    price: "Rp. 340.000",
-    buy: "Beli Kelas",
+    title: "1000 Hari Pertama Kehidupan",
+    price: "Jumat, 9 Juni 2023",
+    buy: "Detail",
     delay: "200",
   },
   {
@@ -195,49 +195,10 @@ export const kelasTerbaru = [
     star3: "fa-solid fa-star",
     star4: "fa-solid fa-star",
     star5: "fa-solid fa-star",
-    title: "Mastering Web Developer Bootstrap 5",
-    price: "Rp. 280.000",
-    buy: "Beli Kelas",
-    delay: "400",
-  },
-  {
-    id: 4,
-    image: KelasImage4,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Logo with Adobe Illustrator",
-    price: "Rp. 420.000",
-    buy: "Beli Kelas",
-    delay: "",
-  },
-  {
-    id: 5,
-    image: KelasImage5,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "3D Modelling for Beginner with 3D Blender",
-    price: "Rp. 380.000",
-    buy: "Beli Kelas",
+    title: "Live Ibu Menyusui Kembali Bekerja",
+    price: "Jumat, 5 Mei 2023",
+    buy: "Detail",
     delay: "200",
-  },
-  {
-    id: 6,
-    image: KelasImage6,
-    star1: "fa-solid fa-star",
-    star2: "fa-solid fa-star",
-    star3: "fa-solid fa-star",
-    star4: "fa-solid fa-star",
-    star5: "fa-solid fa-star",
-    title: "Mastering Icon Design with Adobe Illustrator",
-    price: "Rp. 300.000",
-    buy: "Beli Kelas",
-    delay: "400",
   },
 ];
 
