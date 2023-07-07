@@ -1,4 +1,6 @@
 import {Container, Row, Col} from "react-bootstrap"
+import NavbarComponent from "../components/NavbarComponent"
+import FooterComponent from "../components/FooterComponent"
 import HeaderImage from "../assets/img/header-sm.gif"
 import {kelasTerbaru} from "../data/index"
 import {useNavigate} from "react-router-dom"
@@ -8,6 +10,8 @@ const Beranda = () => {
   let navigate = useNavigate();
 
   return (
+    <div>
+    <NavbarComponent />
     <div className="beranda">
       <header className="w-100 min-vh-100 d-flex align-items-center">
         <Container>
@@ -55,6 +59,8 @@ const Beranda = () => {
       <div className="faq-home">
       <FaqComponent />
       </div>
+    </div>
+    <FooterComponent />
     </div>
   )
 }

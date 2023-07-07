@@ -1,8 +1,12 @@
 import {Container, Row, Col} from "react-bootstrap"
 import {semuaKelas} from "../data/index"
+import NavbarComponent from "../components/NavbarComponent"
+import FooterComponent from "../components/FooterComponent"
 
 const Kegiatan = () => {
   return (
+    <div>
+    <NavbarComponent />
     <div className="kegiatan-page">
       <div className="kegiatan min-vh-100">
       <Container>
@@ -33,6 +37,8 @@ const Kegiatan = () => {
         </Row>
       </Container>
     </div>
+    </div>
+    <FooterComponent />
     </div>
   )
 }

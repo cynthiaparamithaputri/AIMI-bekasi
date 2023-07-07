@@ -1,8 +1,12 @@
 import {Container, Row, Col} from "react-bootstrap"
+import NavbarComponent from "../components/NavbarComponent"
+import FooterComponent from "../components/FooterComponent"
 import FaqComponent from "../components/FaqComponent"
 
 const Tentang = () => {
   return (
+    <div>
+    <NavbarComponent />
     <div className="tentang-page">
       <div className="tentang min-vh-100">
         <Container>
@@ -32,6 +36,8 @@ const Tentang = () => {
           </div>
         </Container>
       </div>
+    </div>
+    <FooterComponent />
     </div>
   )
 }

@@ -18,13 +18,14 @@ const NavbarComponent = () => {
           <Nav.Link href="/tentang">Tentang</Nav.Link>
           <NavDropdown title="Layanan" id="navbarScrollingDropdown">
             <NavDropdown.Item href="/kegiatan">Kegiatan</NavDropdown.Item>
+            <NavDropdown.Divider />
             <NavDropdown.Item href="/daftarkonsel">Daftar Konseling</NavDropdown.Item>
             <NavDropdown.Divider />
-            <NavDropdown.Item href="/hasilkonsel">
-              Hasil
+            <NavDropdown.Item href="/riwayat">
+              Riwayat
             </NavDropdown.Item>
           </NavDropdown>
-          <Nav.Link href="/infografis">Infografis</Nav.Link>
+          <Nav.Link href="/login">Masuk</Nav.Link>
         </Nav>
         <Form className="d-flex">
           <Form.Control

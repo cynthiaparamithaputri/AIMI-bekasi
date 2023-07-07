@@ -2,7 +2,7 @@ import {Container, Row, Col} from "react-bootstrap"
 import NavbarComponent from "../components/NavbarComponent"
 import FooterComponent from "../components/FooterComponent"
 
-const DaftarKonsel = () => {
+const Riwayat = () => {
   return (
     <div>
     <NavbarComponent />
@@ -14,4 +14,4 @@ const DaftarKonsel = () => {
   )
 }
 
-export default DaftarKonsel
+export default Riwayat
