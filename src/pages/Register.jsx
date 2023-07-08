@@ -16,17 +16,25 @@ const Register = () => {
       </div>
       <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
         <Form className="login-form">
+          <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Label>Nama</Form.Label>
+          <Form.Control type="text" />
+          </Form.Group>
           <Form.Group className="mb-3" controlId="formBasicEmail">
           <Form.Label>Alamat Email</Form.Label>
-          <Form.Control type="email" placeholder="Masukkan email" />
+          <Form.Control type="email" />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
-          <Form.Control type="password" placeholder="Masukkan password" />
+          <Form.Control type="password" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="formBasicPassword">
+          <Form.Label>Konfirmasi Password</Form.Label>
+          <Form.Control type="password" />
           </Form.Group>
           <Button type="submit">
-          Masuk
+          Register
           </Button>
         </Form>
       </div>

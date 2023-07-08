@@ -18,10 +18,13 @@ const LoginAdmin = () => {
           className="img-fluid" alt="Sample image" />
       </div>
       <div className="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        <div className="login-text mb-5 mt-lg-0 mt-1 text-center">
+          <p className="lead fw-bold mb-0">Masuk sebagai Admin atau Konselor</p>
+        </div>
         <Form className="login-form">
-          <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Alamat Email</Form.Label>
-          <Form.Control type="email" placeholder="Masukkan email" />
+          <Form.Group className="mb-3" controlId="formBasicText">
+          <Form.Label>ID Admin / Konselor</Form.Label>
+          <Form.Control type="text" placeholder="Masukkan id" />
           </Form.Group>
 
           <Form.Group className="mb-3" controlId="formBasicPassword">

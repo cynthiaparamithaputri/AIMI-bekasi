@@ -25,7 +25,7 @@ const Login = () => {
           </div>
       <div className="login-google">
             <button type="button" onClick={() => navigate("/loginadmin")} className="btn btn-floating mx-1 w-100">
-            <p className="lead fw-normal mb-0">Masuk sebagai Admin / Konselor<i className="fa fa-address-card mx-2"></i></p>
+            <p className="lead fw-normal mb-0">Anda Admin / Konselor<i className="fa fa-address-card mx-2"></i></p>
             </button>
           </div>
             <p className="text-center fw-bold mx-3 my-3">Atau</p>
@@ -34,7 +34,6 @@ const Login = () => {
           <Form.Label>Alamat Email</Form.Label>
           <Form.Control type="email" placeholder="Masukkan email" />
           </Form.Group>
-
           <Form.Group className="mb-3" controlId="formBasicPassword">
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Masukkan password" />

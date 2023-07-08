@@ -13,7 +13,6 @@ const Tentang = () => {
           <Row>
             <Col>
             <h1 className="fw-bold text-center mb-2">Tentang Kami</h1>
-            <p className="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero repellat iusto earum saepe, sequi perferendis omnis voluptates? Voluptatum harum, totam expedita, natus quod ad exercitationem tempora dolore odio quasi est.</p>
             </Col>
           </Row>
           <Row className="pt-5">

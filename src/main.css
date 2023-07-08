@@ -253,6 +253,7 @@ header {
 
 .kegiatan-page .kegiatan .row:nth-child(1) p {
     color: var(--text-color);
+    line-height: 2;
 }
 
 .kegiatan-page .kegiatan .row:nth-child(2) {
@@ -445,6 +446,8 @@ header {
     color: var(--primary-color);
 }
 
+/*login*/
+
 .login .row {
     margin-top: 5rem;
     margin-bottom: 3rem;
@@ -475,4 +478,42 @@ header {
 .login .login-register button:hover {
     background-color: transparent;
     color: var(--third-color);
+}
+
+.login .login-text p {
+    color: var(--third-color);
+}
+
+/*daftar konseling*/
+
+.dafkon-page .dafkon {
+    padding-top: 150px;
+    background-color: var(--fifth-color);
+    padding-bottom: 100px;
+}
+
+.dafkon-page .dafkon p {
+    line-height: 2;
+    color: var(--color-text);
+}
+
+.dafkon-page .dafkon .carousel p {
+    color: var(--primary-color);
+}
+
+.dafkon-page .dafkon h4 {
+    color: var(--secondary-color);
+}
+
+.carousel .carousel-item {
+    height: 400px;
+    background-color: black;
+}
+  
+.carousel-item img {
+    position: absolute;
+    object-fit: cover;
+    top: 0;
+    left: 0;
+    min-height: 400px;
 }

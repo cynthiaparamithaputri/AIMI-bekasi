@@ -30,7 +30,7 @@ const NavbarComponent = () => {
         <Form className="d-flex">
           <Form.Control
             type="search"
-            placeholder="Ketik untuk mencari.."
+            placeholder="Cari kegiatan.."
             className="me-2"
             aria-label="Search"
           />
