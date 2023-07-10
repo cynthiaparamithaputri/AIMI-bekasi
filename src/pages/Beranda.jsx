@@ -20,7 +20,7 @@ const Beranda = () => {
             <h1 className="mb-4">Asosiasi<br/><span className="fw-bold">Ibu Menyusui</span><br/>Indonesia</h1>
             <p className="mb-4">Asosiasi Ibu Menyusui Indonesia (AIMI) adalah organisasi nirlaba berbasis kelompok sesama ibu menyusui dengan tujuan menyebarluaskan pengetahuan dan informasi tentang menyusui serta meningkatkan angka ibu menyusui di Indonesia.</p>
             <div className="d-flex"><button className="btn btn-outline-dark btn-md shadow rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate("/tentang")}>Tentang Kami</button>
-            <button className="btn btn-dark btn-md shadow rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate("/tentang")}>Daftar Konseling<i className="fa-solid fa-chevron-right ms-2"></i></button>
+            <button className="btn btn-dark btn-md shadow rounded-1 me-2 mb-xs-0 mb-2" onClick={() => navigate("/daftarkonsel")}>Daftar Konseling<i className="fa-solid fa-chevron-right ms-2"></i></button>
             </div>
             </Col>
             <Col lg="6" className="pt-lg-0 pt-5">
