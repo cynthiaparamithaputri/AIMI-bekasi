@@ -17,7 +17,7 @@
 
 /*navbar*/
 
-.navbar {
+.navbar-app .navbar {
     width: 100%;
     background-color: var(--fourth-color);
     border-bottom: 2px solid white;
@@ -25,17 +25,17 @@
 
 
 
-.navbar .nav-link {
+.navbar-app .navbar .nav-link {
     font-weight: 500;
     margin: 0 1.5rem;
 }
 
-.navbar a {
+.navbar-app .navbar a {
     color: var(--primary-color);
     border-radius: 5px;
 }
 
-.navbar .nav-link:hover {
+.navbar-app .navbar .nav-link:hover {
     color: var(--text-color);
     background-color: var(--primary-color);
 }
@@ -44,29 +44,29 @@
     color: var(--color-text);
 }
 
-.navbar-nav .nav-link.show {
+.navbar-app .navbar-nav .nav-link.show {
     background-color: var(--primary-color);
     color: unset;
 }
 
-.navbar form {
+.navbar-app .navbar form {
     margin: 0 1rem;
 }
 
-.navbar .btn {
+.navbar-app .navbar .btn {
     padding: 0 1.5rem;
     color: var(--color-text);
     background-color: var(--first-color);
     border: 1px solid var(--first-color);
 }
 
-.navbar .btn:hover {
+.navbar-app .navbar .btn:hover {
     color: var(--primary-color);
     background-color: var(--secondary-color);
     border: 1px solid var(--secondary-color);
 }
 
-.navbar .container-fluid {
+.navbar-app .navbar .container-fluid {
     padding-bottom: 10px;
 }
 
@@ -93,53 +93,6 @@ header {
 
 .beranda .header-box img {
     width: 120%;
-}
-
-@media screen and (max-width: 992px) {
-    .beranda .header-box {
-        padding-top: 200px;
-        padding-bottom: 50px;
-    }
-
-    .beranda .header-box img {
-        width: 400px;
-        display: block;
-        margin-inline: auto;
-    }
-}
-
-@media screen and (max-width: 575px) {
-    .beranda .header-box h1 {
-        font-size: 3rem;
-    }
-}
-
-@media screen and (max-width: 475px) {
-    .beranda .header-box h1 {
-        font-size: 2.4rem;
-    }
-
-    .beranda .header-box p{
-        font-size: 14px;
-    }
-
-    .beranda .header-box img {
-        width: 300px;
-    }
-
-    .beranda .header-box button {
-        font-size: small;
-    }
-}
-
-@media screen and (max-width: 375px) {
-    .beranda .header-box h1 {
-        font-size: 2rem;
-    }
-
-    .beranda .header-box p{
-        font-size: 12px;
-    }
 }
 
 /*kegiatan home*/
@@ -516,4 +469,80 @@ header {
     top: 0;
     left: 0;
     min-height: 400px;
+}
+
+/*admin*/
+
+.admin {
+    background-color: var(--third-color);
+}
+
+.sidebar .list-group a:hover {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.sidebar a {
+    font-size: 1.2rem;
+}
+
+.sidebar .logo {
+    font-size: 1.5rem;
+}
+
+
+@media screen and (max-width: 992px) {
+    .beranda .header-box {
+        padding-top: 200px;
+        padding-bottom: 50px;
+    }
+
+    .beranda .header-box img {
+        width: 400px;
+        display: block;
+        margin-inline: auto;
+    }
+
+    .sidebar a {
+        font-size: 0.75rem;
+    }
+    
+    .sidebar .logo {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 575px) {
+    .beranda .header-box h1 {
+        font-size: 3rem;
+    }
+}
+
+@media screen and (max-width: 475px) {
+    .beranda .header-box h1 {
+        font-size: 2.4rem;
+    }
+
+    .beranda .header-box p{
+        font-size: 14px;
+    }
+
+    .beranda .header-box img {
+        width: 300px;
+    }
+
+    .beranda .header-box button {
+        font-size: small;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .beranda .header-box h1 {
+        font-size: 2rem;
+    }
+
+    .beranda .header-box p{
+        font-size: 12px;
+    }
 }

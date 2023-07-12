@@ -31,7 +31,7 @@ const LoginAdmin = () => {
           <Form.Label>Password</Form.Label>
           <Form.Control type="password" placeholder="Masukkan password" />
           </Form.Group>
-          <Button type="submit" onClick={() => navigate("/")}>
+          <Button type="submit" onClick={() => navigate("/admin")}>
           Masuk
           </Button>
         </Form>

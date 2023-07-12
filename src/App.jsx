@@ -7,6 +7,7 @@ import Riwayat from "./pages/Riwayat"
 import Login from "./pages/Login"
 import LoginAdmin from "./pages/LoginAdmin"
 import Register from "./pages/Register"
+import Admin from "./pages/Admin"
 
 function App() {
 return <div>
@@ -19,6 +20,7 @@ return <div>
     <Route path="/login" Component={Login} />
     <Route path="/loginadmin" Component={LoginAdmin} />
     <Route path="/register" Component={Register} />
+    <Route path="/admin" Component={Admin} />
   </Routes>
 </div>
 }
