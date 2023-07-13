@@ -28,6 +28,7 @@
 .navbar-app .navbar .nav-link {
     font-weight: 500;
     margin: 0 1.5rem;
+    padding-left: 0.5rem;
 }
 
 .navbar-app .navbar a {
@@ -38,10 +39,6 @@
 .navbar-app .navbar .nav-link:hover {
     color: var(--text-color);
     background-color: var(--primary-color);
-}
-
-.dropdown-menu .dropdown-item {
-    color: var(--color-text);
 }
 
 .navbar-app .navbar-nav .nav-link.show {
@@ -68,6 +65,10 @@
 
 .navbar-app .navbar .container-fluid {
     padding-bottom: 10px;
+}
+
+.navbar-app .navbar .dropdown-item {
+    color: var(--color-text);
 }
 
 /*beranda*/
@@ -473,24 +474,29 @@ header {
 
 /*admin*/
 
-.admin {
+.navbar-admin .navbar .nav-link a {
+    font-size: 1rem;
+}
+
+.navbar-admin .navbar .nav-link {
+    border-radius: 5px;
+}
+
+.navbar-admin .navbar .nav-link:hover {
+    color: var(--primary-color);
     background-color: var(--third-color);
 }
 
-.sidebar .list-group a:hover {
-    background-color: var(--secondary-color);
-    color: var(--primary-color);
-    cursor: pointer;
+.navbar-admin .navbar .nav-link i {
+    font-size: small;
 }
 
-.sidebar a {
-    font-size: 1.2rem;
-}
+/*data konseling*/
 
-.sidebar .logo {
-    font-size: 1.5rem;
+.dk-page .data-konseling .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
 }
-
 
 @media screen and (max-width: 992px) {
     .beranda .header-box {
@@ -502,14 +508,6 @@ header {
         width: 400px;
         display: block;
         margin-inline: auto;
-    }
-
-    .sidebar a {
-        font-size: 0.75rem;
-    }
-    
-    .sidebar .logo {
-        font-size: 1rem;
     }
 }
 

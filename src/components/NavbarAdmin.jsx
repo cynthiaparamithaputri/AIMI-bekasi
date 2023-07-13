@@ -1,12 +1,28 @@
-import {Nav} from "react-bootstrap"
+import {Navbar, Container, NavDropdown, Nav, Form, Button } from "react-bootstrap"
+import HeaderImage from "../assets/img/header-sm.gif"
 
-function NavbarAdmin({Toggle}) {
+const NavbarAdmin = () => {
+
   return (
-    <div className="navbar-admin">
-    <Nav className="navbar navbar-expand-sm navbar-dark bg-transparent">
-        <i className="navbar-brand bi bi-justify-left fs-4" onClick={Toggle}></i>
-    </Nav>
-    </div>
+    <div className="navbar-admin"><Navbar expand="lg" className="fixed-top px-lg-5 py-2">
+    <Container fluid>
+      <Navbar.Brand href="/admin" className="fs-3 fw-bold">AIMI Bekasi<i className="bi bi-pencil px-3"></i></Navbar.Brand>
+      <Navbar.Toggle aria-controls="navbarScroll" />
+      <Navbar.Collapse id="navbarScroll">
+        <Nav
+          className="mx-auto my-2 my-lg-0"
+          style={{ maxHeight: '250px' }}
+          navbarScroll
+        >
+          <Nav.Link href="/admin" className="mx-3"><i className="bi bi-house-fill px-1"></i>Beranda</Nav.Link>
+          <Nav.Link href="/datakegiatan" className="mx-3"><i className="bi bi-calendar-fill px-1"></i>Kegiatan</Nav.Link>
+          <Nav.Link href="/datakonseling" className="mx-3"><i className="bi bi-book-fill px-1"></i>Data Konseling</Nav.Link>
+          <Nav.Link href="/datakonselor" className="mx-3"><i className="bi bi-person-fill px-1"></i>Konselor</Nav.Link>
+          <Nav.Link href="#" className="mx-3"><i className="bi bi-x-square px-1"></i>Keluar</Nav.Link>
+        </Nav>
+      </Navbar.Collapse>
+    </Container>
+  </Navbar></div>
   )
 }
 
