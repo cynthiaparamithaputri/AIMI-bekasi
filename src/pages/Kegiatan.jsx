@@ -2,6 +2,7 @@ import {Container, Row, Col} from "react-bootstrap"
 import {semuaKelas} from "../data/index"
 import NavbarComponent from "../components/NavbarComponent"
 import FooterComponent from "../components/FooterComponent"
+import { Link } from "react-router-dom"
 
 const Kegiatan = () => {
   return (
@@ -19,18 +20,14 @@ const Kegiatan = () => {
         <Row>
         {semuaKelas.map((kelas) => {
               return <Col key={kelas.id}>
-                <img src={kelas.image} alt="unsplash.com" className="w-100 mb-5" />
-                <div className="star mb-2 px-3">
-                  <i className={kelas.star1}></i>
-                  <i className={kelas.star2}></i>
-                  <i className={kelas.star3}></i>
-                  <i className={kelas.star4}></i>
-                  <i className={kelas.star5}></i>
+                <img src={kelas.image} alt="unsplash.com" className="w-100 mb-3" />
+                <div className="card-title mb-5 px-3">
+                <h5>{kelas.title}</h5>
                 </div>
-                <h5 className="mb-5 px-3">{kelas.title}</h5>
+                <hr className="hr" />
                 <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                   <p className="m-0 text-primary fw-bold">{kelas.price}</p>
-                  <button className="btn rounded-1">{kelas.buy}</button>
+                  <Link to={kelas.buy}>Detail</Link>
                 </div>
               </Col>
             })}

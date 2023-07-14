@@ -161,6 +161,14 @@ header {
     color: var(--primary-color);
 }
 
+.beranda .kegiatan-home .ket a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
 /*faq*/
 
 .faq-home .faq {
@@ -245,14 +253,16 @@ header {
     padding-top: 100px;
 }
 
-.kegiatan-page .kegiatan .row:nth-child(3) button {
-    background-color: var(--first-color);
-    color: var(--text-color);
-}
-
-.kegiatan-page .kegiatan .row:nth-child(3) button:hover {
+.kegiatan-page .kegiatan .ket a {
+    padding: 5px 10px;
+    border-radius: 5px;
+    text-decoration: none;
     background-color: var(--secondary-color);
     color: var(--primary-color);
+}
+
+.kegiatan-page .kegiatan .card-title {
+    min-height: 75px;
 }
 
 /*tentang*/
@@ -471,6 +481,29 @@ header {
     left: 0;
     min-height: 400px;
 }
+
+.dafkon-page .dafkon .dafkon-header {
+    background-color: var(--fourth-color);
+    color: var(--first-color);
+    border: 1px solid var(--fourth-color);
+    border-radius: 10px;
+}
+
+.dafkon-page .dafkon .dafkon-header p {
+    color: var(--primary-color);
+}
+
+.dafkon-page .dafkon button {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    border: none;
+}
+
+.dafkon-page .dafkon button:hover {
+    background-color: var(--first-color);
+    color: var(--text-color);
+}
+
 
 /*admin*/
 

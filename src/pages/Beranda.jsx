@@ -3,7 +3,7 @@ import NavbarComponent from "../components/NavbarComponent"
 import FooterComponent from "../components/FooterComponent"
 import HeaderImage from "../assets/img/header-sm.gif"
 import {kelasTerbaru} from "../data/index"
-import {useNavigate} from "react-router-dom"
+import {useNavigate, Link} from "react-router-dom"
 import FaqComponent from "../components/FaqComponent"
 
 const Beranda = () => {
@@ -40,11 +40,14 @@ const Beranda = () => {
           <Row>
             {kelasTerbaru.map((kelas) => {
               return <Col key={kelas.id}>
-                <img src={kelas.image} alt="unsplash.com" className="w-100 mb-5" />
-                <h5 className="mb-5 px-3">{kelas.title}</h5>
+                <img src={kelas.image} alt="unsplash.com" className="w-100 mb-3" />
+                <div className="card-title mb-5 px-3">
+                <h5>{kelas.title}</h5>
+                </div>
+                <hr className="hr" />
                 <div className="ket d-flex justify-content-between align-items-center px-3 pb-3">
                   <p className="m-0 text-primary fw-bold">{kelas.price}</p>
-                  <button className="btn rounded-1">{kelas.buy}</button>
+                  <Link to={kelas.buy}>Detail</Link>
                 </div>
               </Col>
             })}
