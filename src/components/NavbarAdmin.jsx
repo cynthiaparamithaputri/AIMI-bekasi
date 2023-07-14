@@ -1,5 +1,4 @@
-import {Navbar, Container, NavDropdown, Nav, Form, Button } from "react-bootstrap"
-import HeaderImage from "../assets/img/header-sm.gif"
+import {Navbar, Container, Nav } from "react-bootstrap"
 
 const NavbarAdmin = () => {
 
@@ -18,7 +17,7 @@ const NavbarAdmin = () => {
           <Nav.Link href="/datakegiatan" className="mx-3"><i className="bi bi-calendar-fill px-1"></i>Kegiatan</Nav.Link>
           <Nav.Link href="/datakonseling" className="mx-3"><i className="bi bi-book-fill px-1"></i>Data Konseling</Nav.Link>
           <Nav.Link href="/datakonselor" className="mx-3"><i className="bi bi-person-fill px-1"></i>Konselor</Nav.Link>
-          <Nav.Link href="#" className="mx-3"><i className="bi bi-x-square px-1"></i>Keluar</Nav.Link>
+          <Nav.Link href="/" className="mx-3"><i className="bi bi-x-square px-1"></i>Keluar</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Container>

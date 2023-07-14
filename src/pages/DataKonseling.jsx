@@ -10,7 +10,7 @@ const DataKonseling = () => {
         <Container>
             <Col>
                 <Row>
-                    <h1 className="fw-bold text-center mb-2">Data Konseling</h1>
+                    <h1 className="fw-bold text-center mb-5">Data Konseling</h1>
                     <DataKonselComp />
                 </Row>
             </Col>
