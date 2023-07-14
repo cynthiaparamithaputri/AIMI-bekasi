@@ -46,9 +46,13 @@ const DataKonselComp = () => {
         <thead>
             <tr>
             <th scope="col">No.</th>
-            <th scope="col">Waktu</th>
+            <th scope="col">Timestamp</th>
             <th scope="col">Nama</th>
-            <th scope="col" className="col-md-6">Masalah yang Dihadapi</th>
+            <th scope="col" className="col-md-4">Masalah yang Dihadapi</th>
+            <th scope="col">Status</th>
+            <th scope="col">Waktu Selesai</th>
+            <th scope="col">Konselor</th>
+            <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
@@ -57,6 +61,14 @@ const DataKonselComp = () => {
             <td>14/07/2023 11:25</td>
             <td>Cynthia Paramitha</td>
             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt similique ratione reiciendis maiores enim. Consequuntur rem quia totam laudantium inventore corrupti possimus molestiae, reiciendis ipsam officiis, molestias odio ut quo.</td>
+            <td>Belum selesai</td>
+            <td></td>
+            <td></td>
+            <td className="text-center">
+              <Button className="btn-sm" variant="primary">Tetapkan Konselor</Button><br/>
+              <Button className="btn-sm" variant="danger">Ubah Status</Button><br/>
+              <Button className="btn-sm" variant="success">Lihat Detail</Button>
+            </td>
             </tr>
         </tbody>
         </Table>

@@ -524,6 +524,25 @@ header {
     font-size: small;
 }
 
+.admin-page .admin .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.admin-page .admin .click-images {
+    margin-bottom: 100px;
+}
+
+.admin-page .admin .click-images .card {
+    width: 450px;
+    cursor: pointer;
+}
+
+.admin-page .admin .click-images img {
+    width: 100%;
+}
+
+
 /*data konseling*/
 
 .dk-page .data-konseling .row:nth-child(1) {
@@ -534,6 +553,11 @@ header {
 .dk-page .data-konseling .dk-comp .row:nth-child(1) {
     padding-top: 0;
     padding-bottom: 1rem;
+}
+
+.dk-page .data-konseling .dk-comp button {
+    width: 100px;
+    margin: 2px;
 }
 
 /*data kegiatan*/
@@ -560,6 +584,38 @@ header {
 
 .data-kegiatan-page .data-kegiatan .keg-image img {
     width: 100px;
+}
+
+.data-kegiatan-page .data-kegiatan .dk-comp button {
+    width: 75px;
+    margin: 2px;
+}
+
+/*data konselor*/
+
+.data-konselor-page .data-konselor .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.data-konselor-page .data-konselor .dk-comp .row:nth-child(1) {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.data-konselor-page .data-konselor .btn-tambah button {
+    background-color: var(--third-color);
+    border: none;
+}
+
+.data-konselor-page .data-konselor .btn-tambah button:hover {
+    background-color: var(--secondary-color);
+    border: none;
+}
+
+.data-konselor-page .data-konselor .dk-comp button {
+    width: 75px;
+    margin: 2px;
 }
 
 @media screen and (max-width: 992px) {

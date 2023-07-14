@@ -11,6 +11,8 @@ import Admin from "./pages/Admin"
 import DataKegiatan from "./pages/DataKegiatan"
 import DataKonseling from "./pages/DataKonseling"
 import DataKonselor from "./pages/DataKonselor"
+import TambahKegiatan from "./pages/TambahKegiatan"
+import TambahKonselor from "./pages/TambahKonselor"
 
 function App() {
 return <div>
@@ -27,6 +29,8 @@ return <div>
     <Route path="/datakegiatan" Component={DataKegiatan} />
     <Route path="/datakonseling" Component={DataKonseling} />
     <Route path="/datakonselor" Component={DataKonselor} />
+    <Route path="/tambahkegiatan" Component={TambahKegiatan} />
+    <Route path="/tambahkonselor" Component={TambahKonselor} />
   </Routes>
 </div>
 }

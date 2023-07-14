@@ -26,8 +26,8 @@ const DataKegComp = () => {
                 <img src={example} class="rounded" alt="..." />
             </div>
             </td>
-            <td>
-                <Button className="btn-sm" variant="primary">Sunting</Button>{' '}
+            <td className="text-center">
+                <Button className="btn-sm" variant="primary">Sunting</Button><br/>
                 <Button className="btn-sm" variant="danger">Hapus</Button>
             </td>
             </tr>

@@ -1,8 +1,11 @@
 import NavbarAdmin from "../components/NavbarAdmin"
 import {Container, Row, Col, Button} from "react-bootstrap"
 import DataKegComp from "../components/DataKegComp"
+import { useNavigate } from "react-router-dom"
 
 const DataKegiatan = () => {
+  let navigate = useNavigate();
+  
   return (
     <div className="container-fluid data-kegiatan-page min-vh-100">
         <NavbarAdmin />
@@ -11,7 +14,7 @@ const DataKegiatan = () => {
             <Col>
                 <Row className="btn-tambah text-center">
                   <div>
-                  <Button size="lg">Tambah Kegiatan Baru<i className="bi bi-calendar-plus mx-2"></i></Button>
+                  <Button size="lg" onClick={() => navigate("/tambahkegiatan")}>Tambah Kegiatan Baru<i className="bi bi-calendar-plus mx-2"></i></Button>
                   </div>
                 </Row>
                 <hr className="hr" />
