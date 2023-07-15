@@ -591,6 +591,22 @@ header {
     margin: 2px;
 }
 
+/*tambah*/
+
+.tambah .tambah-kegkon .tambah-row {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.tambah .tambah-kegkon .tambah-row button {
+    background-color: var(--third-color);
+    border: none;
+}
+
+.tambah .tambah-kegkon .tambah-row button:hover {
+    background-color: var(--secondary-color);
+}
+
 /*data konselor*/
 
 .data-konselor-page .data-konselor .row:nth-child(1) {
