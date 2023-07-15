@@ -560,6 +560,22 @@ header {
     margin: 2px;
 }
 
+/*data konseling*/
+
+.detail-page .detail-konseling .row:nth-child(1) {
+    padding-top: 200px;
+    padding-bottom: 100px;
+}
+
+.detail-page .detail-konseling .dk-comp .row:nth-child(1) {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.detail-page .detail-konseling .dk-comp button {
+    margin-top: 2rem;
+}
+
 /*data kegiatan*/
 
 .data-kegiatan-page .data-kegiatan .row:nth-child(1) {

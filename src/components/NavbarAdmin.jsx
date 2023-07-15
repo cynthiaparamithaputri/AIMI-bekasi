@@ -3,7 +3,7 @@ import {Navbar, Container, Nav } from "react-bootstrap"
 const NavbarAdmin = () => {
 
   return (
-    <div className="navbar-admin"><Navbar expand="lg" className="fixed-top px-lg-5 py-2">
+    <div className="navbar-admin"><Navbar expand="lg" className="fixed-top px-lg-5 py-2 bg-white">
     <Container fluid>
       <Navbar.Brand href="/admin" className="fs-3 fw-bold">AIMI Bekasi<i className="bi bi-pencil px-3"></i></Navbar.Brand>
       <Navbar.Toggle aria-controls="navbarScroll" />

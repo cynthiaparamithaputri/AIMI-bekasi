@@ -1,6 +1,9 @@
 import {Table, Form, Button, Row, Col} from "react-bootstrap"
+import { useNavigate } from "react-router-dom";
 
 const DataKonselComp = () => {
+  let navigate = useNavigate();
+
   return (
     <div className="dk-comp">
         <div className="d-flex justify-content-end">
@@ -67,7 +70,7 @@ const DataKonselComp = () => {
             <td className="text-center">
               <Button className="btn-sm" variant="primary">Tetapkan Konselor</Button><br/>
               <Button className="btn-sm" variant="danger">Ubah Status</Button><br/>
-              <Button className="btn-sm" variant="success">Lihat Detail</Button>
+              <Button className="btn-sm" variant="success" onClick={() => navigate("/detailkonsel")}>Lihat Detail</Button>
             </td>
             </tr>
         </tbody>
