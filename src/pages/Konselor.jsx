@@ -18,13 +18,13 @@ function Konselor() {
             </Row>
           </Col>
             <div className="click-images d-flex flex-wrap justify-content-center">
-              <div className="card bg-dark text-white m-1" onClick={() => navigate("#")}>
+              <div className="card bg-dark text-white m-1" onClick={() => navigate("/konselkonselor")}>
                 <Image src={Image1} className="opacity-50" rounded />
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
                   <h5 className="card-title">KONSELING</h5>
                 </div>
               </div>
-              <div className="card bg-dark text-white m-1" onClick={() => navigate("#")}>
+              <div className="card bg-dark text-white m-1" onClick={() => navigate("/feedbackkonselor")}>
                 <Image src={Image1} className="opacity-50" rounded />
                 <div className="card-img-overlay d-flex align-items-center justify-content-center">
                   <h5 className="card-title">FEEDBACK</h5>

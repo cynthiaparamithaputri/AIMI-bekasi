@@ -504,6 +504,33 @@ header {
     color: var(--text-color);
 }
 
+/*riwayat*/
+
+.riwayat-page .riwayat {
+    padding-top: 150px;
+    background-color: var(--fifth-color);
+    padding-bottom: 100px;
+}
+
+.riwayat-page .riwayat .row:nth-child(1) h1 {
+    color: var(--secondary-color);
+}
+
+.riwayat-page .riwayat .table thead th {
+    font-weight: 100;
+    background-color: var(--second-color);
+    color: var(--text-color);
+}
+
+.riwayat-page .riwayat .table button {
+    color: white;
+    border: none;
+    background-color: var(--third-color);
+}
+
+.riwayat-page .riwayat .table button:hover {
+    background-color: var(--secondary-color);
+}
 
 /*admin*/
 

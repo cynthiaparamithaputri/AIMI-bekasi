@@ -1,11 +1,11 @@
-import NavbarAdmin from "../components/NavbarAdmin"
-import {Container, Row, Col, Table, Button} from "react-bootstrap"
+import NavbarKonselor from "../components/NavbarKonselor"
+import {Container, Row, Col} from "react-bootstrap"
 import DetailKonselComp from "../components/DetailKonselComp"
 
-const DetailKonseling = () => {
+const DetailKonselingKon = () => {
   return (
     <div className="container-fluid detail-page min-vh-100">
-        <NavbarAdmin />
+        <NavbarKonselor />
         <div className="detail-konseling w-100 min-vh-100">
         <Container>
             <Col>
@@ -20,4 +20,4 @@ const DetailKonseling = () => {
   )
 }
 
-export default DetailKonseling
+export default DetailKonselingKon

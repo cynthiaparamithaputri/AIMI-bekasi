@@ -14,8 +14,8 @@ const NavbarKonselor = () => {
           navbarScroll
         >
           <Nav.Link href="/konselor" className="mx-3"><i className="bi bi-house-fill px-1"></i>Beranda</Nav.Link>
-          <Nav.Link href="#" className="mx-3"><i className="bi bi-book px-1"></i>Data Konseling</Nav.Link>
-          <Nav.Link href="#" className="mx-3"><i className="bi bi-chat-dots-fill px-1"></i>Feedback</Nav.Link>
+          <Nav.Link href="/konselkonselor" className="mx-3"><i className="bi bi-book px-1"></i>Data Konseling</Nav.Link>
+          <Nav.Link href="/feedbackkonselor" className="mx-3"><i className="bi bi-chat-dots-fill px-1"></i>Feedback</Nav.Link>
           <Nav.Link href="/" className="mx-3"><i className="bi bi-x-square px-1"></i>Keluar</Nav.Link>
         </Nav>
       </Navbar.Collapse>

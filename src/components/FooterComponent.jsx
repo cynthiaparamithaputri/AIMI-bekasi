@@ -27,8 +27,8 @@ const FooterComponent = () => {
             <Link to="/">Beranda</Link>
             <Link to="/tentang">Tentang</Link>
             <Link to="/kegiatan">Kegiatan</Link>
-            <Link to="daftarkonsel">Daftar Konseling</Link>
-            <Link to="/infografis">Infografis</Link>
+            <Link to="/daftarkonsel">Daftar Konseling</Link>
+            <Link to="/riwayat">Riwayat</Link>
           </Col>
           <Col lg="4" className="mt-lg-0 mt-5">
             <h5 className="fw-bold mb-3">Subscribe untuk info lebih</h5>

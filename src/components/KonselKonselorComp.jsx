@@ -1,7 +1,7 @@
 import {Table, Form, Button, Row, Col} from "react-bootstrap"
 import { useNavigate } from "react-router-dom";
 
-const DataKonselComp = () => {
+const KonselKonselorComp = () => {
   let navigate = useNavigate();
 
   return (
@@ -60,30 +60,28 @@ const DataKonselComp = () => {
         <Table responsive className="table-bordered">
         <thead>
             <tr>
-            <th scope="col">No.</th>
+            <th scope="col">ID</th>
             <th scope="col">Timestamp</th>
             <th scope="col">Nama</th>
             <th scope="col">Jenis Konseling</th>
             <th scope="col" className="col-md-4">Masalah yang Dihadapi</th>
             <th scope="col">Status</th>
             <th scope="col">Waktu Selesai</th>
-            <th scope="col">Konselor</th>
             <th scope="col"></th>
             </tr>
         </thead>
         <tbody>
             <tr>
-            <th scope="row">1</th>
+            <th scope="row">1234</th>
             <td>14/07/2023 11:25</td>
             <td>Cynthia Paramitha</td>
             <td>Konseling Menyusui</td>
             <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt similique ratione reiciendis maiores enim. Consequuntur rem quia totam laudantium inventore corrupti possimus molestiae, reiciendis ipsam officiis, molestias odio ut quo.</td>
             <td>Belum selesai</td>
             <td></td>
-            <td></td>
             <td className="text-center">
-              <Button className="btn-sm" variant="primary">Tetapkan Konselor</Button><br/>
-              <Button className="btn-sm" variant="success" onClick={() => navigate("/detailkonsel")}>Lihat Detail</Button>
+              <Button className="btn-sm" variant="danger">Ubah Status</Button><br/>
+              <Button className="btn-sm" variant="success" onClick={() => navigate("/detailkonselkon")}>Lihat Detail</Button>
             </td>
             </tr>
         </tbody>
@@ -95,4 +93,4 @@ const DataKonselComp = () => {
   )
 }
 
-export default DataKonselComp
+export default KonselKonselorComp

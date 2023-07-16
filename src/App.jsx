@@ -15,6 +15,9 @@ import TambahKegiatan from "./pages/TambahKegiatan"
 import TambahKonselor from "./pages/TambahKonselor"
 import DetailKonseling from "./pages/DetailKonseling"
 import Konselor from "./pages/Konselor"
+import KonselingKonselor from "./pages/KonselingKonselor"
+import DetailKonselingKon from "./pages/DetailKonselingKon"
+import FeedbackKonselor from "./pages/FeedbackKonselor"
 
 function App() {
 return <div>
@@ -35,6 +38,9 @@ return <div>
     <Route path="/tambahkonselor" Component={TambahKonselor} />
     <Route path="/detailkonsel" Component={DetailKonseling} />
     <Route path="/konselor" Component={Konselor} />
+    <Route path="/konselkonselor" Component={KonselingKonselor} />
+    <Route path="/detailkonselkon" Component={DetailKonselingKon} />
+    <Route path="/feedbackkonselor" Component={FeedbackKonselor} />
   </Routes>
 </div>
 }
