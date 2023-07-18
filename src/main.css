@@ -532,6 +532,27 @@ header {
     background-color: var(--secondary-color);
 }
 
+.riwayat-page .riwayat .fb-form .fb-outline {
+    background-color: transparent;
+    color: var(--third-color);
+    border: 1px solid var(--third-color);
+}
+
+.riwayat-page .riwayat .fb-form .fb-outline:hover {
+    background-color: var(--third-color);
+    color: var(--primary-color);
+    border: 1px solid var(--third-color);
+}
+
+.riwayat-page .riwayat .fb-form button {
+    background-color: var(--third-color);
+    border: none;
+}
+
+.riwayat-page .riwayat .fb-form button:hover {
+    background-color: var(--secondary-color);
+}
+
 /*admin*/
 
 .navbar-admin .navbar .nav-link a {

@@ -39,7 +39,7 @@ const Riwayat = () => {
                   <td>Konselor #1</td>
                   <td>Saya sangat puas dengan saran dan bantuan yang diberikan oleh konselor</td>
                   <td className="col-2">
-                    <Button className="btn-sm m-1">Feedback</Button>
+                    <Button className="btn-sm m-1" onClick={() => navigate("/feedback")}>Feedback</Button>
                   </td>
                 </tr>
               </tbody>

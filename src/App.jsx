@@ -18,6 +18,7 @@ import Konselor from "./pages/Konselor"
 import KonselingKonselor from "./pages/KonselingKonselor"
 import DetailKonselingKon from "./pages/DetailKonselingKon"
 import FeedbackKonselor from "./pages/FeedbackKonselor"
+import TambahFeedback from "./pages/TambahFeedback"
 
 function App() {
 return <div>
@@ -27,6 +28,7 @@ return <div>
     <Route path="/kegiatan" Component={Kegiatan} />
     <Route path="/daftarkonsel" Component={DaftarKonsel} />
     <Route path="/riwayat" Component={Riwayat} />
+    <Route path="/feedback" Component={TambahFeedback} />
     <Route path="/login" Component={Login} />
     <Route path="/loginadmin" Component={LoginAdmin} />
     <Route path="/register" Component={Register} />
